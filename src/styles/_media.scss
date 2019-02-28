@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1500px) {
+  .block {
+    flex-direction: column;
+    width: 1035px;
+  }
+  .main {
+    transform: translateY(-500px);
+  }
+  .block_top {
+    align-items: flex-start;
+    transform: translateY(500px);
+  }
+  .block_bottom {
+    align-items: flex-end;
+  }
+  .small-block {
+    margin: 0 5%;
+  }
+  .left-menu {
+    left: -3px;
+  }
+}
